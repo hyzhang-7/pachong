@@ -7,3 +7,6 @@ result = urlopen(url)
 
 with open('mybaidu.html',mode='w') as f:
     f.write(result.read().decode('utf-8'))
+
+
+###################
