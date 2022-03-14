@@ -2,11 +2,20 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/第6章-scrapy/firstBlood/firstBlood/spiders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第6章-scrapy/4_持久化存储-基于管道/saveResult/saveResult/spiders" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/第2章-数据解析与提取/9_save_image" />
       <excludeFolder url="file://$MODULE_DIR$/第4章-爬虫加速/9_异步爬小说" />
       <excludeFolder url="file://$MODULE_DIR$/第4章-爬虫加速/10_video" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8 (base)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/第6章-scrapy/持久化存储-基于管道/saveResult/saveResult" />
+      </list>
+    </option>
   </component>
 </module>
