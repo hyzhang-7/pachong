@@ -5,7 +5,7 @@ from chaojiying import Chaojiying_Client
 import time
 
 # 初始化超级鹰
-chaojiying = Chaojiying_Client('用户名', '密码', '9298')
+chaojiying = Chaojiying_Client('用户名', '密码', '9999')
 web = Chrome()
 
 # 有的网站会识别selenuim
