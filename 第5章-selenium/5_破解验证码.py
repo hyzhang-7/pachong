@@ -9,7 +9,7 @@ web .get("http://www.chaojiying.com/user/login/")
 # 处理验证码
 # 首先把验证码对应的元素转化为图片
 img = web.find_element_by_xpath('/html/body/div[3]/div/div[3]/div[1]/form/div/img').screenshot_as_png
-chaojiying = Chaojiying_Client('用户名', '密码', '9298')
+chaojiying = Chaojiying_Client('用户名', '密码', '9999')
 # 解析验证码
 dic = chaojiying.PostPic(img, 1902)
 # 发挥验证码结果
